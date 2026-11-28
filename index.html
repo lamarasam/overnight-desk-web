@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Grok Bot · Overnight Desk</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icons/icon-180.png">
+  <link rel="icon" href="icons/icon-192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Grok Bot">
+  <meta name="theme-color" content="#000000">
+  <meta name="color-scheme" content="dark">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div id="app">
+    <div id="offline" class="offline" role="status" hidden></div>
+    <main id="screen" aria-live="polite"></main>
+    <nav id="tabs" aria-label="Main"></nav>
+    <div id="overlay" hidden></div>
+    <div id="toast" role="status" hidden></div>
+  </div>
+  <noscript><p style="color:#fff;padding:24px">This app needs JavaScript.</p></noscript>
+  <script src="chart.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
